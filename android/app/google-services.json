@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "814222642957",
+    "project_id": "pencreative-private-space",
+    "storage_bucket": "pencreative-private-space.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814222642957:android:dc22e092a9cebdcfd0ea44",
+        "android_client_info": {
+          "package_name": "com.example.pencreative_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814222642957-a2ugei97g7ca7m0vo768kir34h7futlb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbTh-KE-JJk7GDpGY8vETgz8q6AUdwUKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814222642957-a2ugei97g7ca7m0vo768kir34h7futlb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
