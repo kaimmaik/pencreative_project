@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sizer/sizer.dart';
 
 class TextFieldInput extends StatelessWidget {
   final String hint;
@@ -14,7 +15,12 @@ class TextFieldInput extends StatelessWidget {
     );
 
     return TextField(
+      style: Theme.of(context)
+          .textTheme
+          .headline4
+          ?.copyWith(fontWeight: FontWeight.bold, fontSize: 15.0.sp),
       decoration: InputDecoration(
+        fillColor: Colors.white.withAlpha(10),
         hintStyle: const TextStyle(fontWeight: FontWeight.normal),
         hintText: hint,
         border: inputBorder,
